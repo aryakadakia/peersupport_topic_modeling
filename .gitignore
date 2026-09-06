@@ -1,0 +1,8 @@
+# Peer-support message data is never committed to this repository.
+data/
+data_class/
+*.csv
+
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
