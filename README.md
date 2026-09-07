@@ -3,25 +3,37 @@
 Natural language processing applied to digital peer support sessions, with the
 goal of assessing fidelity at scale.
 
-Peer support improves recovery outcomes including reduced hospitalisation and
-fewer anxiety and depression symptoms, and digital delivery has been shown to be
-feasible and acceptable. What has been missing is any validated way to assess
-whether a given session is actually delivered well. Fidelity assessment normally
-depends on a trained rater listening to sessions, which does not scale to the
-volume of digital delivery.
+Adults with serious mental illness are disproportionately affected by chronic
+health conditions linked to inadequately managed medical and psychiatric illness.
+Peer specialists, who are certified individuals offering emotional, social and
+practical support from shared lived experience, improve illness management and
+community rehabilitation. Delivery has increasingly moved to digital platforms.
 
-This work approaches that gap in three steps: identify the components of a peer
-support session, define what distinguishes high from low fidelity, then train a
-classifier to detect those indicators in sessions it has not seen.
+The problem this addresses is one of scale. Fidelity monitoring conventionally
+requires audio recording every interaction and having a trained rater assess it,
+which does not scale to the volume of digital delivery. No validated measure of
+peer support fidelity existed.
+
+The approach here is to build a corpus from digital peer support sessions,
+identify the components of a session, define what separates high from low
+fidelity, then train a classifier to detect evidence-based techniques in sessions
+it has not seen. The stated hypothesis was that a binary classifier could reach
+70 percent accuracy.
 
 ## Publication
 
-Kadakia, A., Preum, S., Bohm, A., Fortuna, K. (2023). Investigating the Fidelity
-of Digital Peer Support: A Preliminary Approach using Natural Language Processing
-to Scale High-Fidelity Digital Peer Support. *Proceedings of the 16th
-International Joint Conference on Biomedical Engineering Systems and
-Technologies - Scale-IT-up*, 581-592.
-[10.5220/0011776500003414](https://doi.org/10.5220/0011776500003414)
+Kadakia, A., Preum, S. M., Bohm, A. R., & Fortuna, K. L. (2023). Investigating
+the Fidelity of Digital Peer Support: A Preliminary Approach using Natural
+Language Processing to Scale High-Fidelity Digital Peer Support. *Proceedings of
+the 16th International Joint Conference on Biomedical Engineering Systems and
+Technologies (BIOSTEC) - Scale-IT-up*, 2023, 581-592.
+
+- DOI: [10.5220/0011776500003414](https://doi.org/10.5220/0011776500003414)
+- PubMed: [PMID 39280019](https://pubmed.ncbi.nlm.nih.gov/39280019/)
+- Free full text: [PMC11398714](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11398714/)
+
+Work carried out at the BRiTE Center, Department of Psychiatry and Behavioral
+Sciences, University of Washington, with co-authors at Dartmouth College.
 
 `AryaKPoster.pdf` is the accompanying conference poster. The work began as an
 Honors Psychology thesis supervised by Karen Fortuna and Luke Chang.
